@@ -1,0 +1,67 @@
+# 💡 OS-specific junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 💻 IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 🔐 Secrets & credentials
+*.env
+.env.local
+.env.*.local
+includes/db_connect.php
+
+# 🐘 PHP-related
+*.log
+vendor/
+composer.lock
+
+# 📦 Node.js (if applicable for Chart.js or frontend tooling)
+node_modules/
+package-lock.json
+
+# 🛠 Build/output/temp folders
+dist/
+build/
+tmp/
+temp/
+.cache/
+*.bak
+
+# 🧪 PHPUnit or testing
+phpunit.xml
+phpunit.xml.dist
+coverage/
+
+# 🗃 Database exports (schemas or full dumps)
+*.sql
+*.sqlite
+*.db
+
+# ⚙️ System backups & temporary files
+*.zip
+*.tar
+*.tar.gz
+*.swp
+*.swo
+*.tmp
+
+# 🖼 Cache folders and macOS metadata
+__MACOSX/
+.cache/
+.cache-loader/
+
+# 📊 Chart.js (if manually downloaded)
+chart.js
+
+# 📄 External libraries
+TCPDF-main/
+pChart2.1.4/
+
+# 📂 Optional: if you keep third-party libs in assets/libs/
+assets/libs/tcpdf/
+assets/libs/pchart/
